@@ -1,0 +1,13 @@
+[Unit]
+Description=chasersite Service
+After=network.target
+
+[Service]
+Type=simple
+User=blog
+Restart=on-failure
+RestartSec=5s
+ExecStart=/usr/bin/server_start.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -109,6 +109,7 @@ LANGUAGE_CODE = 'zh-hans'
 TIME_ZONE = 'Asia/Shanghai'
 
 SITE_ID = 1
+ZINNIA_MARKUP_LANGUAGE = 'markdown'
 
 USE_I18N = True
 

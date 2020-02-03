@@ -19,7 +19,7 @@ from django.conf.urls import include
 from django.conf.urls import url
 
 urlpatterns = [
-    url(r'^weblog/', include('zinnia.urls')),
+    url(r'', include('zinnia.urls')),
     url(r'^comments/', include('django_comments.urls')),
     path('admin/', admin.site.urls),
 ]

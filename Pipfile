@@ -9,6 +9,7 @@ verify_ssl = true
 django = "==2.2.3"
 django-blog-zinnia = "*"
 gunicorn = "*"
+markdown = "*"
 
 [requires]
 python_version = "3.6"
